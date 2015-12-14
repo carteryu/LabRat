@@ -1,7 +1,11 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{419585E3-A9B2-0A5B-D232-23C0E213390F}") = "LabRat", "Assembly-CSharp-firstpass.csproj", "{F084032C-CFBC-708A-16E9-8EEF7646A73B}"
+EndProject
 Project("{419585E3-A9B2-0A5B-D232-23C0E213390F}") = "LabRat", "Assembly-CSharp.csproj", "{AC6F2835-E346-19F8-83BE-03DEE391F036}"
+EndProject
+Project("{419585E3-A9B2-0A5B-D232-23C0E213390F}") = "LabRat", "Assembly-CSharp-Editor.csproj", "{B1BBDC2B-3182-4AFB-F501-5838CFF03872}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +13,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F084032C-CFBC-708A-16E9-8EEF7646A73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F084032C-CFBC-708A-16E9-8EEF7646A73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F084032C-CFBC-708A-16E9-8EEF7646A73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F084032C-CFBC-708A-16E9-8EEF7646A73B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AC6F2835-E346-19F8-83BE-03DEE391F036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AC6F2835-E346-19F8-83BE-03DEE391F036}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC6F2835-E346-19F8-83BE-03DEE391F036}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC6F2835-E346-19F8-83BE-03DEE391F036}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1BBDC2B-3182-4AFB-F501-5838CFF03872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1BBDC2B-3182-4AFB-F501-5838CFF03872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1BBDC2B-3182-4AFB-F501-5838CFF03872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1BBDC2B-3182-4AFB-F501-5838CFF03872}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+									GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -36,4 +48,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal
